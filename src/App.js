@@ -2,18 +2,23 @@ import Main from './components/MainComponent';
 import { Component } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { createBrowserHistory } from "history";
+import { Provider } from 'react-redux';
+import { ConfigureStore } from './redux/configureStore';
+
 const history=createBrowserHistory()
+const store=ConfigureStore();
 
 class App extends Component {
 
   render() {
     return (
-      <BrowserRouter history={history}>
-          <div className="App">
+      <Provider store={store}>
+        <BrowserRouter history={history}>
+          <div>
             <Main />
           </div>
-      </BrowserRouter>
-
+        </BrowserRouter>
+      </Provider>
     );
   }
 }
