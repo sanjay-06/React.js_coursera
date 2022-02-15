@@ -180,7 +180,7 @@ class CommentForm extends Component {
                                 </Fade>
                             );
                         })}
-                        </Stagger>
+                </Stagger>
                 </ul>
                 <CommentForm
                     dish={dish}
