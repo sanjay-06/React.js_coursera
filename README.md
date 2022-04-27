@@ -1,4 +1,4 @@
-# courera React.js course
+# coursera React.js course
 ```
 This includes 5 branches
 ```
@@ -7,6 +7,10 @@ This includes 5 branches
 - Week 3
 - Week 4
 - main
+
+# website link
+
+<a link="https://reactjs-coursera-app-sanjay.herokuapp.com/">https://reactjs-coursera-app-sanjay.herokuapp.com/home</a>
 
 ## Assignment 1
 In this assignment, you will continue to work with the React application that you have been developing in the exercises. You will add a new component named DishdetailComponent that will display the details of a selected dish. You will then design the view for the component using the card component. At the end of this assignment, you should have completed the following tasks:
